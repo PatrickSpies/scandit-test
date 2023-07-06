@@ -1,0 +1,32 @@
+{
+  "name": "com.scandit.barcodecapturesimplesample",
+  "displayName": "BCSimple",
+  "version": "1.0.0",
+  "description": "BarcodeCaptureSimpleSample for the Scandit Cordova plugin",
+  "main": "index.js",
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "cordova": {
+    "plugins": {
+      "scandit-cordova-datacapture-core": {},
+      "scandit-cordova-datacapture-barcode": {},
+      "cordova-plugin-camera": {
+        "ANDROIDX_CORE_VERSION": "1.6.+"
+      }
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-plugin-add-swift-support": "2.0.2",
+    "scandit-cordova-datacapture-barcode": "6.18.0",
+    "scandit-cordova-datacapture-core": "6.18.0"
+  },
+  "devDependencies": {
+    "cordova-android": "^12.0.0",
+    "cordova-plugin-camera": "^6.0.0"
+  }
+}
